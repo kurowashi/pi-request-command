@@ -24,8 +24,11 @@ Esc で閉じると、拒否ではなく失敗として扱われます。
 ## インストール
 
 ```bash
-pi install <このリポジトリの URL>
+pi install git:github.com/kurowashi/pi-request-command
 ```
+
+ref を固定する場合は `pi install git:github.com/kurowashi/pi-request-command@<tag|commit>` を使います。
+ローカルの作業コピーを使う場合は `pi install /path/to/pi-request-command` を使います。
 
 ## 使い方
 
